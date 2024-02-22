@@ -12,6 +12,14 @@ ul, li {
 .header__title, .featured__title, .article__title {
   color: #767f7e;
 }
+
+.header {
+  max-width: 1200px;
+  margin: 40px auto;
+  border-bottom: 1px solid #bbc7c7;
+}
+
+
 .article__descritpion {
   color: #828b8a;
 }
