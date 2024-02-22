@@ -56,3 +56,24 @@ ul, li {
   border-bottom: 1px solid #bbc7c7;
   padding-bottom: 2.5rem;
 }
+
+/* TABLET */
+
+@media screen and (max-width: 980px) {
+  .article {
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.75rem;
+    align-items: center;
+  }
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 760px) {
+  .article, .featured {
+    display: block;
+    margin: 0 1.25rem;
+  }
+}
