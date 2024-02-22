@@ -9,9 +9,9 @@ ul, li {
   padding: 0;
   list-style-type: none;
 }
-h1,h2,h3 {
+.header__title, .featured__title, .article__title {
   color: #767f7e;
 }
-p {
+.article__descritpion {
   color: #828b8a;
 }
