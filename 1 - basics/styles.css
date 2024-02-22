@@ -4,3 +4,49 @@ body {
   margin: 30px;
   font-family: "Poppins";
 }
+
+.grid-container {
+  background: #eee;
+  max-width: 900px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 100px 200px 300px;
+  gap: 10px;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+.grid-container__item {
+  background-color: #ccc;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #777;
+}
+
+.grid-item1 {
+  grid-column: 1 / span 2;
+}
+
+.grid-item2 {
+  grid-column: span 3;
+}
+
+.grid-item3 {
+  grid-column: span 1;
+}
+
+.grid-item4 {
+  grid-column: 2 / 6;
+  align-self: end;
+}
+
+.grid-item5 {
+  grid-column: span 3;
+}
+
+.grid-item6 {
+  grid-column: span 3;
+  justify-self: end;
+  align-self: start;
+}
