@@ -60,3 +60,41 @@ ul, li {
   border-top: 1px solid #ddd;
   padding: 1.875rem;
 }
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1200px) {
+  .nav {
+    grid-column: span 3;
+    border-right: 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .nav__item {
+    display: inline-block;
+    margin-right: 0.625rem;
+  }
+
+  .article {
+    grid-column: span 2;
+  }
+
+  .aside {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .nav, .article, .aside {
+    grid-column: span 3;
+  }
+
+  .aside {
+    border-left: 0;
+    border-top: 1px solid #ddd;
+  }
+
+  .article__title {
+    font-size: 2.5rem;
+  }
+}
