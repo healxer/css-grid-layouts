@@ -1,4 +1,4 @@
-These are 4 different responsive layouts with CSS Grid as well as a simple 12-column grid system.
+These are 4 different responsive layouts with **CSS Grid** as well as a simple 12-column grid system.
 
 # 1. Live demo for multi-column layout
 https://clever-sherbet-2799ae.netlify.app
