@@ -4,7 +4,55 @@ body {
   margin: 0;
   font-family: "Poppins";
 }
+
 ul, li {
   padding: 0;
   list-style-type: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  column-gap: 1.875rem;
+}
+
+.header {
+  grid-column: span 3;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav {
+  padding: 1.875rem;
+  border-right: 1px solid #ddd;
+}
+
+.article {
+  padding: 1.875rem;
+}
+
+.article__title {
+  font-size: 3.5rem;
+  max-width: 800px;
+}
+
+.article__img {
+  width: 100%;
+}
+
+.article__text {
+  margin-top: 1.875rem;
+  line-height: 2em;
+}
+
+.aside {
+  padding: 1.875rem;
+  border-left: 1px solid #ddd;
+}
+
+.footer {
+  grid-column: span 3;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  padding: 1.875rem;
 }
