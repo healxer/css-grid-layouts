@@ -19,7 +19,6 @@ ul, li {
   border-bottom: 1px solid #bbc7c7;
 }
 
-
 .article__descritpion {
   color: #828b8a;
 }
@@ -41,10 +40,6 @@ ul, li {
 .article__img {
   height: 14rem;
   object-fit: cover;
-}
-
-.article__descritpion, article__title {
-  margin: 1.25rem 0.625rem;
 }
 
 .featured {
