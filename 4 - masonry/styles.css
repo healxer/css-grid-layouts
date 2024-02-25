@@ -82,3 +82,26 @@ body {
 .main__link:hover {
   border-bottom: 1px solid #000;
 }
+
+@media screen and (max-width: 960px) {
+  .main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .main {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 1.25rem auto;
+  }
+
+  .nav {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .nav__header {
+    grid-column: 1 / span 4;
+    grid-row: 1;
+  }
+}
