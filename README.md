@@ -12,3 +12,6 @@ https://masonry-layout-tp.netlify.app/
 # 4. Live demo portfolio layout
 https://portfolio-grid-tp.netlify.app/
 
+# 5. 12-col-grid layout
+https://12-column-grid.netlify.app/
+
