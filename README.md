@@ -3,26 +3,32 @@
 ## Overview
 These are 4 different responsive layouts with **CSS Grid** as well as a simple 12-column grid system.
 
+&nbsp;
 
 ## 🎬 Live for multi-column layout
 https://multi-column-layout.netlify.app/
 
+&nbsp;
 
 ## 🎬 Live for holy-grail layout (blog post)
 https://holygrail-layout.netlify.app/
 
+&nbsp;
 
 ## 🎬 Live for masonry layout 
 https://masonry-layout-tp.netlify.app/
 
+&nbsp;
 
 ## 🎬 Live portfolio layout
 https://portfolio-grid-tp.netlify.app/
 
+&nbsp;
 
 ## 🎬 12-col-grid layout
 https://12-column-grid.netlify.app/
 
+&nbsp;
 
 ## 🖥️ Technologies
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
