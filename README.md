@@ -7,17 +7,22 @@ These are 4 different responsive layouts with **CSS Grid** as well as a simple 1
 ## 🎬 Live for multi-column layout
 https://multi-column-layout.netlify.app/
 
+
 ## 🎬 Live for holy-grail layout (blog post)
 https://holygrail-layout.netlify.app/
+
 
 ## 🎬 Live for masonry layout 
 https://masonry-layout-tp.netlify.app/
 
+
 ## 🎬 Live portfolio layout
 https://portfolio-grid-tp.netlify.app/
 
+
 ## 🎬 12-col-grid layout
 https://12-column-grid.netlify.app/
+
 
  
 ## 🖥️ Technologies
