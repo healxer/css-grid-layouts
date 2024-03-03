@@ -27,8 +27,8 @@ ul, li {
   border-bottom: 1px solid #bbc7c7;
 }
 
-.article__descritpion {
-  color: var(var(--text-color));
+.article__description {
+  color: var(--text-color);
 }
 
 .grid-container {
