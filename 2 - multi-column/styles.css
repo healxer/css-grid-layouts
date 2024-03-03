@@ -1,9 +1,11 @@
 :root {
   --background-color-primary: #d1dedd; 
-  --border-color: #fff;
+  --border-color-primary: #fff;
+  --border-color-secondary: #bbc7c7;
   --text-color: #7c8382;
   --title-color: #696d6c;
 }
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap');
 
@@ -26,7 +28,7 @@ li {
 .header {
   max-width: 1200px;
   margin: 2.5rem auto;
-  border-bottom: 1px solid #bbc7c7;
+  border-bottom: 1px solid var(--border-color-secondary);
 }
 
 .article__description,
@@ -46,7 +48,7 @@ li {
 .featured__img {
 
   width: 100%;
-  border: 4px solid var(--border-color);
+  border: 4px solid var(--border-color-primary);
   border-radius: 8px;
 }
 
@@ -61,7 +63,7 @@ li {
   grid-template-columns: repeat(2, 1fr);
   gap: 3.75rem;
   align-items: center;
-  border-bottom: 1px solid #bbc7c7;
+  border-bottom: 1px solid var(--border-color-secondary);
   padding-bottom: 2.5rem;
 }
 
