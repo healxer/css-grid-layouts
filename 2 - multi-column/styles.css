@@ -1,16 +1,24 @@
+:root {
+  --background-color-primary: #d1dedd; 
+  --border-color: #fff;
+  --text-color: #828b8a;
+  --title-color: #767f7e;
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap');
 
 body {
   margin: 20px;
   font-family: "Poppins";
-  background: #d1dedd;
+  background-color: var(--background-color-primary);
 }
 ul, li {
   padding: 0;
   list-style-type: none;
 }
 .header__title, .featured__title, .article__title {
-  color: #767f7e;
+  color: var(--title-color);
 }
 
 .header {
@@ -20,7 +28,7 @@ ul, li {
 }
 
 .article__descritpion {
-  color: #828b8a;
+  color: var(var(--text-color));
 }
 
 .grid-container {
@@ -32,8 +40,9 @@ ul, li {
 }
 
 .article__img, .featured__img {
+
   width: 100%;
-  border: 4px solid #fff;
+  border: 4px solid var(--border-color);
   border-radius: 8px;
 }
 
