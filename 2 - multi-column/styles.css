@@ -27,7 +27,8 @@ ul, li {
   border-bottom: 1px solid #bbc7c7;
 }
 
-.article__description {
+.article__description,
+.featured__description {
   color: var(--text-color);
 }
 
